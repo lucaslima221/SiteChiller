@@ -1,0 +1,22 @@
+{
+    "modelo": "RCU 320 SAZ",
+    "numeroSerie": "-",
+    "capacidade": "xx TR",
+    "fluidoRefrigerante": "R-407C",
+    "fabricante": "Hitachi",
+    "anoFabricacao": "2004",
+    "dataInstalacao": "00/00/00",
+    "ultimaManutencao": "00/00/00",
+    "status": {
+        "condicao": "Operacional",
+        "horasOperacao": "0",
+        "proximaManutencao": "00/00/00",
+        "alertas": null
+    },
+    "componentes": {
+        "compressor": "Operacional",
+        "condensador": "Operacional",
+        "evaporador": "Operacional",
+        "valvulas": "Operacional"
+    }
+}

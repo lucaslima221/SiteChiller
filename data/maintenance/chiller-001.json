@@ -1,0 +1,20 @@
+[
+    {
+        "data": "00/00/00",
+        "tipo": "Manutenção Preventiva",
+        "tecnico": "xxxxxxxxxxxxx",
+        "observacoes": "Troca de filtros e verificação de pressões"
+    },
+    {
+        "data": "00/00/00",
+        "tipo": "Instalação",
+        "tecnico": "xxxxxxxxxxxxx",
+        "observacoes": "Instalação inicial do equipamento"
+    },
+    {
+        "data": "00/00/00",
+        "tipo": "Pré-instalação",
+        "tecnico": "xxxxxxxbarbaraxxxxxx",
+        "observacoes": "Vistoria do local para instalação"
+    }
+]

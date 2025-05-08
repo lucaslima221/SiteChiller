@@ -1,0 +1,44 @@
+{
+    "nome": "Americas",
+    "cnpj": "12.345.678/0001-99",
+    "contato": {
+        "nome": "xxxxxxxx",
+        "telefone": "(xx) xxxxx-xxxx",
+        "email": "xxxxxxxxxx@americas.com.br"
+    },
+    "endereco": {
+        "rua": "Av. das Américas",
+        "numero": "15500",
+        "complemento": "null",
+        "bairro": "Recreio dos Bandeirantes",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "22790-702"
+    },
+    "localInstalacao": "Sala de Máquinas",
+    "acesso": "24h com autorização na portaria",
+    "contrato": {
+        "tipo": "Preventiva",
+        "numero": "xxxxxxxx",
+        "validade": "00/00/00",
+        "responsavel": "Eng. xxxxxxxx"
+    },
+    "documentos": [
+        {
+            "nome": "Manual do Equipamento",
+            "caminho": "manuais/.pdf"
+        },
+        {
+            "nome": "Laudo de Instalação",
+            "caminho": "contratos/.pdf"
+        },
+        {
+            "nome": "Termo de Garantia",
+            "caminho": "contratos/.pdf"
+        },
+        {
+            "nome": "Contrato de Manutenção",
+            "caminho": "contratos/.pdf"
+        }
+    ]
+}

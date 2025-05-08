@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Americas - S Lima</title>
+    <link rel="icon" href="assets/images/icone.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon para diferentes dispositivos -->
+    <link rel="icon" href="imagens/logo0.png" type="image/png">
+    <link rel="icon" href="imagens/logo0.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="imagens/logo0.png">
+        
+    <!-- Para Windows Metro -->
+    <meta name="msapplication-TileImage" content="imagens/logo0.png">
+    <meta name="msapplication-TileColor" content="#00b62d">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 id="chiller-title">Carregando...</h1>
+            <p>S Lima Serviços de Climatização</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="tab-container">
+            <div class="tab active" onclick="openTab('machine')">Informações da Máquina</div>
+            <div class="tab" onclick="openTab('client')">Informações do Cliente</div>
+        </div>
+        
+        <div class="content-container">
+            <div id="machine" class="tab-content active">
+                <div class="machine-info">
+                    <!-- Os dados serão preenchidos pelo JavaScript -->
+                </div>
+                
+                <div class="maintenance-history">
+                    <h2>Histórico de Manutenção</h2>
+                    <div class="table-container">
+                        <table id="maintenance-table">
+                            <thead>
+                                <tr>
+                                    <th>Data</th>
+                                    <th>Tipo de Serviço</th>
+                                    <th>Técnico</th>
+                                    <th>Observações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Dados serão preenchidos pelo JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="client" class="tab-content">
+                <div class="client-info">
+                    <!-- Os dados serão preenchidos pelo JavaScript -->
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>S Lima Serviços de Climatização &copy; <script>document.write(new Date().getFullYear())</script> - Todos os direitos reservados</p>
+        </footer>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
